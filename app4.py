@@ -21,7 +21,8 @@
 
 import streamlit as st
 import tensorflow as tf
-from tensorflow.keras.models import Sequential
+import keras
+from keras.models import Sequential
 from tensorflow.keras.layers import (
     Conv2D,
     MaxPooling2D,
@@ -30,10 +31,10 @@ from tensorflow.keras.layers import (
     Dropout,
     BatchNormalization
 )
-from tensorflow.keras.preprocessing.image import ImageDataGenerator
-from tensorflow.keras.datasets import mnist
-from tensorflow.keras.utils import to_categorical
-from tensorflow.keras.preprocessing import image
+from keras.preprocessing.image import ImageDataGenerator
+from keras.datasets import mnist
+from keras.utils import to_categorical
+from keras.preprocessing import image
 
 import numpy as np
 import matplotlib.pyplot as plt
