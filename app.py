@@ -116,7 +116,8 @@ Handwritten Digit Recognition using Deep Learning
 
 st.header("📂 Loading MNIST Dataset")
 
-(X_train, y_train), (X_test, y_test) = mnist.load_data()
+(X_train, y_train), (X_test, y_test) = load_model()
+
 
 st.write("Training Images Shape:", X_train.shape)
 st.write("Testing Images Shape:", X_test.shape)
