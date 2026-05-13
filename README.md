@@ -1,4 +1,3 @@
-````md
 # 🧠 CNN Image Classification App
 
 A Deep Learning based Handwritten Digit Recognition System developed using Convolutional Neural Networks (CNN) and the MNIST dataset.  
@@ -186,5 +185,4 @@ AI & Machine Learning Enthusiast 🚀
 
 ---
 
-```
 ```
