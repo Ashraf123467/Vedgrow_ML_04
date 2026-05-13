@@ -1,6 +1,9 @@
-streamlit==1.25.0
-tensorflow-cpu==2.9.1
-numpy==1.22.4
-protobuf==3.19.6
-h5py==3.7.0
-pillow==9.2.0
+tensorflow
+keras
+numpy
+pillow
+h5py
+matplotlib
+seaborn
+scikit-learn
+streamlit
